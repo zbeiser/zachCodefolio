@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  padding: 50px;
+  padding: 30px;
   background-color: burlywood;
 }
 
@@ -35,12 +35,20 @@ header nav ul li {
   margin-right: 30px;
 }
 
+.banner {
+  position: relative;
+}
+
 .tagline {
-  text-align: center;
   font-size: 40px;
+  position: absolute;
+  right: 50px;
+  margin-top: -110px;
+  padding: 10px;
+  background-color: #e96430;
 }
 
 .poppies {
-  height: 500px;
+  height: auto;
   width: 100%;
 }
