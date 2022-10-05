@@ -20,7 +20,7 @@ header h1 {
   padding: 10px 30px 10px 90px;
   border-radius: 0px 30px 30px 0px;
   background-color: #e78158;
-  box-shadow: 10px 10px 8px #3b3b3b;
+  box-shadow: 7px 7px 8px #3b3b3b;
 }
 
 header nav {
@@ -59,7 +59,7 @@ header nav ul li {
   width: 100%;
 }
 
-.about-me h2, .work h2 {
+.about-me h2, .work h2, .contact-me h3 {
   font-size: 40px;
   display: inline-block;
   border-radius: 30px 30px 30px 30px;
@@ -73,7 +73,8 @@ header nav ul li {
 
 .bio {
   font-size: 20px;
-  width: 50%;
+  width: 900px;
+  height: 400px;
   display: block;
   left: 130px;
   position: relative;
@@ -88,9 +89,21 @@ header nav ul li {
   position: relative;
   margin: 50px;
   display: block;
-  width: 30%;
+  width: 500px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #3b3b3b;
+}
+
+.work {
+  display: inline-block;
+}
+
+.horiseon {
+  width: 50%;
+  position: relative;
+  display: block;
+  left: 150px;
+  border: solid 10px #e0cfaf;
 }
 
 
