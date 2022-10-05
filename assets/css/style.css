@@ -15,36 +15,44 @@ header {
 }
 
 header h1 {
-  font-size: 50px;
+  /* font-size: 55px; */
+  font-size: 3.2vw;
   display: inline-block;
   padding: 10px 30px 10px 90px;
   border-radius: 0px 30px 30px 0px;
   background-color: #48ad50;
-  box-shadow: 7px 7px 8px #3b3b3b;
+  box-shadow: 4px 4px 6px #3b3b3b;
 }
 
 header nav {
   float: right;
 }
 
-header nav ul {
-  list-style-type: none;
-}
-
 header nav ul li {
+  /* font-size: 35px; */
+  font-size: 2.05vw;
   font-weight: bold;
-  font-size: 30px;
   display: inline-block;
   padding: 20px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
-.banner {
-  position: relative;
+a:any-link {
+  color:#174d1b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #48ad50;
+}
+
+a:visited {
+  color:#5a1b6d;
 }
 
 .tagline {
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 2.93vw;
   font-family:'Courier New', Courier, monospace;
   font-weight: bolder;
   position: absolute;
@@ -60,34 +68,38 @@ header nav ul li {
 }
 
 .about-me h2, .work h2, .contact-me h3 {
-  font-size: 40px;
+  /* font-size: 42px; */
+  font-size: 2.5vw;
   display: inline-block;
-  border-radius: 30px 30px 30px 30px;
-  padding: 10px 30px 10px 30px;
+  border: solid 10px #48ad50;
+  border-radius: 30px 30px 0px 0px;
+  padding: 5px 25px 5px 25px;
   background-color: #48ad50;
-  box-shadow: 8px 8px 8px #3b3b3b;
-  margin: 30px 10px 30px 10px;
-  left: 70px;
+  margin: 30px 10px 0px 10px;
+  left: 5%;
   position: relative;
 }
 
 .bio {
-  font-size: 20px;
+  /* font-size: 23px; */
+  font-size: 1.5vw;
   width: 50%;
   height: 30%;
   display: block;
-  left: 80px;
+  left: 5%;
   position: relative;
-  padding: 20px 30px 20px 30px;
+  padding: 10px 30px 10px 30px;
+  margin: 0px 10px 0px 10px;
   background-color: #e0cfaf;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: 0px 30px 30px 30px;
   box-shadow: 10px 10px 10px #3b3b3b;
 }
 
 .prof-pic {
   float: right;
   position: relative;
-  margin: 50px;
+  margin-top: 50px;
+  right: 4%;
   display: block;
   width: 28%;
   border-radius: 10px;
@@ -103,18 +115,18 @@ header nav ul li {
   height: 70%;
   position: relative;
   display: block;
-  left: 5%;
+  left: 5.6%;
   border: solid 10px #e0cfaf;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 10px;
   float: left;
 }
 
 .horiseon-text {
-  font-size: 50px;
+  font-size: 3vw;
   position: absolute;
   display: block;
-  padding: 10px;
-  left: 5%;
+  padding: 13px 18px 13px 18px;
+  left: 6%;
   float: left;
   width:fit-content;
   background-color: #e0cfaf;
@@ -123,13 +135,22 @@ header nav ul li {
 .raised-bed, .dnd-map, .bike-trail {
   width: 30%;
   height: 20%;
-  right: 1%;
+  right: 2%;
   margin: 0px 10px 10px 10px;
   position: relative;
   display: block;
   border: solid 10px #e0cfaf;
   border-radius: 10px;
   float: right;
+}
+
+.contact-me p {
+  font-size: 38px;
+  margin: 30px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: #e0cfaf;
 }
 
 @media screen and (max-width: 992px) {
