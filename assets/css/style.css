@@ -6,7 +6,7 @@
 
 body {
   background-color: #f8f8f8;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -19,7 +19,7 @@ header h1 {
   display: inline-block;
   padding: 10px 30px 10px 90px;
   border-radius: 0px 30px 30px 0px;
-  background-color: #e78158;
+  background-color: #48ad50;
   box-shadow: 7px 7px 8px #3b3b3b;
 }
 
@@ -44,14 +44,14 @@ header nav ul li {
 }
 
 .tagline {
-  font-size: 40px;
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
   position: absolute;
-  right: 50px;
-  margin-top: -110px;
+  right: 1%;
+  margin-top: -90px;
   padding: 10px;
-  background-color: #e78158;
-  box-shadow: 10px 10px 8px #3b3b3b;
-  border-radius: 30px 30px 30px 30px;
+  color: #f8f8f8
 }
 
 .poppies {
@@ -64,19 +64,19 @@ header nav ul li {
   display: inline-block;
   border-radius: 30px 30px 30px 30px;
   padding: 10px 30px 10px 30px;
-  background-color: #e78158;
+  background-color: #48ad50;
   box-shadow: 8px 8px 8px #3b3b3b;
-  margin: 30px 10px 10px 10px;
-  left: 120px;
+  margin: 30px 10px 30px 10px;
+  left: 70px;
   position: relative;
 }
 
 .bio {
   font-size: 20px;
-  width: 900px;
-  height: 400px;
+  width: 50%;
+  height: 30%;
   display: block;
-  left: 130px;
+  left: 80px;
   position: relative;
   padding: 20px 30px 20px 30px;
   background-color: #e0cfaf;
@@ -89,7 +89,7 @@ header nav ul li {
   position: relative;
   margin: 50px;
   display: block;
-  width: 500px;
+  width: 28%;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #3b3b3b;
 }
@@ -99,14 +99,38 @@ header nav ul li {
 }
 
 .horiseon {
-  width: 50%;
+  width: 60%;
+  height: 70%;
   position: relative;
   display: block;
-  left: 150px;
+  left: 5%;
   border: solid 10px #e0cfaf;
+  border-radius: 10px;
+  float: left;
 }
 
+.horiseon-text {
+  font-size: 50px;
+  position: absolute;
+  display: block;
+  padding: 10px;
+  left: 5%;
+  float: left;
+  width:fit-content;
+  background-color: #e0cfaf;
+}
 
+.raised-bed, .dnd-map, .bike-trail {
+  width: 30%;
+  height: 20%;
+  right: 1%;
+  margin: 0px 10px 10px 10px;
+  position: relative;
+  display: block;
+  border: solid 10px #e0cfaf;
+  border-radius: 10px;
+  float: right;
+}
 
 @media screen and (max-width: 992px) {
   
