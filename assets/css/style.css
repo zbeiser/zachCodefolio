@@ -15,7 +15,6 @@ header {
 }
 
 header h1 {
-  /* font-size: 55px; */
   font-size: 3.2vw;
   display: inline-block;
   padding: 10px 30px 10px 90px;
@@ -29,12 +28,10 @@ header nav {
 }
 
 header nav ul li {
-  /* font-size: 35px; */
   font-size: 2.05vw;
   font-weight: bold;
   display: inline-block;
   padding: 20px;
-  /* margin-right: 10px; */
 }
 
 a:any-link {
@@ -54,30 +51,29 @@ a:visited {
   position: relative;
 }
 
+/* Used banner's relative positioning to absolutely position tagline over it. */
+
 .tagline {
-  /* font-size: 50px; */
   font-size: 2.93vw;
   font-family:'Courier New', Courier, monospace;
   font-weight: bolder;
   position: absolute;
-  right: 1%;
-  bottom: 1%;
+  right: 2%;
+  bottom: 4%;
   color: #f8f8f8
 }
 
-.poppies {
+.forest {
   height: auto;
   width: 100%;
 }
 
 .about-me h2, .work h2 {
-  /* font-size: 42px; */
   font-size: 2.5vw;
   width: 17%;
   text-align: center;
   border: solid 10px #48ad50;
   border-radius: 30px 30px 0px 0px;
-  padding: 5px 25px 5px 25px;
   background-color: #48ad50;
   margin: 30px 10px 0px 10px;
   left: 5%;
@@ -85,9 +81,8 @@ a:visited {
 }
 
 .bio {
-  /* font-size: 38px; */
   font-size: 1.8vw;
-  width: 50%;
+  width: 55%;
   height: 30%;
   display: block;
   left: 5%;
@@ -103,7 +98,6 @@ a:visited {
   float: right;
   position: relative;
   right: 4%;
-  display: block;
   width: 28%;
   border-radius: 10px;
   box-shadow: 10px 10px 10px #3b3b3b;
@@ -111,6 +105,7 @@ a:visited {
 
 .work {
   display: inline-block;
+  position: relative;
 }
 
 .horiseon {
@@ -131,8 +126,11 @@ a:visited {
   padding: 13px 18px 13px 18px;
   left: 6%;
   float: left;
-  width:fit-content;
   background-color: #e0cfaf;
+}
+
+.img-container {
+  position: relative;
 }
 
 .raised-bed, .dnd-map, .bike-trail {
@@ -143,6 +141,27 @@ a:visited {
   border: solid 10px #e0cfaf;
   border-radius: 10px;
   float: right;
+  position: relative;
+}
+
+.raised-bed-text, .dnd-map-text, .bike-trail-text {
+  font-size: 2vw;
+  right: 2%;
+  margin: 10px 10px 10px 10px;
+  padding: .5%;
+  /* padding: 13px 18px 13px 18px; */
+  float: right;
+  position: absolute;
+  background-color: #e0cfaf;
+  z-index: +1;
+}
+
+.dnd-map-text {
+  top: 39.5%;
+}
+
+.bike-trail-text {
+  top: 69.5%;
 }
 
 .contact-me {
@@ -153,27 +172,62 @@ a:visited {
 }
 
 .contact-me h3 {
-  /* font-size: 42px; */
   font-size: 2.5vw;
   width: 17%;
   left: 5%;
-  position: relative;
 }
 
-.contact-me p, :any-link {
-  /* font-size: 38px; */
+.contact-me p, .contact-me :any-link {
   font-size: 1.8vw;
   margin: 30px;
 }
 
-@media screen and (max-width: 992px) {
-  
+/* Changed nav link padding with media queries to fit as the screen shrinks */
+
+@media screen and (max-width: 800px) {
+  header nav ul li {
+    padding: 20px 10px 20px 10px;
+  }
 }
 
-@media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 625px) {
+  header nav ul li {
+    padding: 20px 5px 20px 5px;
+  }
 }
 
-@media screen and (max-width: 576px) {
-  
+@media screen and (max-width: 487px) {
+  header {
+    padding: 25px 10px 25px 0px;
+  }
+  header nav ul li {
+    padding: 20px 0px 20px 0px;
+  }
+}
+
+/* Used media queries to udjust height of the dnd-maps text as screen re-sizes. 
+This feels so hacksy but I don't know how else to deal with this right now. */
+
+@media screen and (max-width: 1257px) {
+  .dnd-map-text {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  .dnd-map-text {
+    top: 41%;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .dnd-map-text {
+    top: 42%;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  .dnd-map-text {
+    top: 43%;
+  }
 }
