@@ -119,6 +119,11 @@ a:visited {
   float: left;
 }
 
+.horiseon:hover, .raised-bed:hover, .dnd-map:hover, .bike-trail:hover {
+  filter: alpha(opacity=80);
+  opacity: .8;
+}
+
 .horiseon-text {
   font-size: 3vw;
   position: absolute;
