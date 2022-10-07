@@ -11,7 +11,7 @@ Website's URL: https://zbeiser.github.io/zachCodefolio/
 
 Visit this website to view my picture, a short bio about me, and links to my projects, resume, and contact information.
 
-![Screenshot](https://github.com/zbeiser/Bootcamp-Challenge-1/blob/main/assets/images/zachCodefolio-screenshot.png?raw=true)
+![Screenshot](https://github.com/zbeiser/zachCodefolio/blob/main/assets/images/zachCodefolio-screenshot.png?raw=true)
 
 ## Credits
 Thank you to the UW Coding Bootcamp staff and students, as well as W3Schools and Mozilla MDN Web Docs for providing numerous educational resources during the development of this project.
