@@ -47,6 +47,10 @@ a:visited {
   color:#5a1b6d;
 }
 
+a:visited:hover {
+  color:#ae39d1;
+}
+
 .banner {
   position: relative;
 }
