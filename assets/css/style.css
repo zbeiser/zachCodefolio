@@ -128,7 +128,7 @@ this vw value, otherwise the box around it resized it unfavorable ways. */
 
 /* Used this hover states to make image links look more interactive. */
 
-.horiseon:hover, .raised-bed:hover, .dnd-map:hover, .bike-trail:hover {
+.horiseon:hover, .dinner-drinks:hover, .dnd-map:hover, .bike-trail:hover {
   filter: alpha(opacity=80);
   opacity: .8;
 }
@@ -147,7 +147,7 @@ this vw value, otherwise the box around it resized it unfavorable ways. */
   position: relative;
 }
 
-.raised-bed, .dnd-map, .bike-trail {
+.dinner-drinks, .dnd-map, .bike-trail {
   width: 30%;
   height: 20%;
   right: 2%;
@@ -158,7 +158,7 @@ this vw value, otherwise the box around it resized it unfavorable ways. */
   position: relative;
 }
 
-.raised-bed-text, .dnd-map-text, .bike-trail-text {
+.dinner-drinks-text, .dnd-map-text, .bike-trail-text {
   font-size: 2vw;
   right: 2%;
   margin: 10px 10px 10px 10px;
